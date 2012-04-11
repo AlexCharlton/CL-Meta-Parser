@@ -336,3 +336,7 @@
     (format stream "~a~%~s"
             *grammar-prelude*
             (parse 'meta-grammar *grammar*))))
+
+; A helpful macro
+(defmacro meta (s)
+  (parse 'meta-grammar s))

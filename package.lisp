@@ -7,6 +7,7 @@
            :anything
            :form
            :meta-grammar
+           :meta
            :char
            :digit
            :alpha
